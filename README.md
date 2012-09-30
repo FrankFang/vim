@@ -3,7 +3,7 @@ My vim configuration ( only for Windows )
 
 Setup
 =
-You can fellow the steps below or just download [the whole files](https://sourceforge.net/projects/mygvim/files/)
+You can follow the steps below or just download [the whole files](https://sourceforge.net/projects/mygvim/files/)<br/>
 1. Make a new folder.<br/>
     `mkdir frank`
 2. Get my configuration files<br/>
