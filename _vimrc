@@ -10,6 +10,7 @@ set nobackup
 "保存关闭文件之前保留一个备份
 set writebackup
 let mapleader=","
+let g:mapleader=","
 
 """"""""""""""""""""""""""""""""""""""""""外观
 "c "设置语法高亮的配色
@@ -113,7 +114,4 @@ map <F4>c :call ViewInBrowser('c')<CR>
 map <F4>e :call ViewInBrowser('e')<CR>
 map <F4>f :call ViewInBrowser('f')<CR>
 map <A-d><A-d> :TaskList<CR>
-"TODO:it
- 
-
-
+map <leader>nt :NERDTreeToggle<CR>
