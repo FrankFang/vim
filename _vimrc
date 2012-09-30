@@ -87,7 +87,8 @@ language messages zh_CN.utf-8
 "s
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
-
+"w
+set winaltkeys=menu
 """"""""""""""""""""""""""""""""""""""""""快捷键
 nmap tt :tabn<CR>
 "取消<C-W>在insert模式的默认动作
@@ -110,9 +111,8 @@ endfunction
 map <F4>c :call ViewInBrowser('c')<CR>
 map <F4>e :call ViewInBrowser('e')<CR>
 map <F4>f :call ViewInBrowser('f')<CR>
-
-
-
+map <A-d><A-d> :TaskList<CR>
+"TODO:it
  
 
 
