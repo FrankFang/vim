@@ -9,10 +9,7 @@ source $VIMRUNTIME/mswin.vim
 set nobackup
 "保存关闭文件之前保留一个备份
 set writebackup
-set ignorecase
-set showmatch
-set incsearch "边输入边搜索
-set hlsearch
+let mapleader=","
 
 """"""""""""""""""""""""""""""""""""""""""外观
 "c "设置语法高亮的配色
@@ -39,6 +36,10 @@ set ruler
 set textwidth=0
 "w "在输入命令时列出匹配项目，也就是截图底部的效果
 set wildmenu
+set ignorecase
+set showmatch
+set incsearch "边输入边搜索
+set hlsearch
 """"""""""""""""""""""""""""""""""""""""""缩进
 "a "auto indent
 set ai! 
