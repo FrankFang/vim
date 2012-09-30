@@ -10,7 +10,7 @@ You can follow the steps below or just download [the whole files](https://source
     `mkdir frank`
 2. Get my configuration files<br/>
     `cd frank`<br/>
-    `git clone https://github.com/FrankFang/vim.git.`<br/>
+    `git clone https://github.com/FrankFang/vim.git`<br/>
     or download the zip file.  than your folder looks like this:<br/>
 	- frank
 		- 	vim
