@@ -23,13 +23,14 @@ Setup
 
 Hotkeys
 =
-* `<Ctrl-S>`/`<Ctrl-A>`/`<Ctrl-C>`/`<Ctrl-V>`/`<CTRL-X>` : save/select all/copy/paste/cut, as you expected.
+* `<Ctrl-S>` / `<Ctrl-A>` / `<Ctrl-C>` / `<Ctrl-V>` / `<CTRL-X>` : save / select all / copy / paste / cut, as you expected.
 * `,nt` : toggle NerdTree.
 * `,tt` : next tab.
 * `,tl` : open TaskList.
 * `,m` : add colorful mark; `,n` : remove colorful mark.
 * `<space>` : fold/unfold the code.
 * `Tab` : complete the code automatically.
-* `<F4>c`/`<F4>f`/`<F4>e` : open html/htm/shtml file in Chrome/Firefox/IE. It doesn't work unless you add their full path to Path, the environment variable.
+* `,js` : format JaveScript.
+* `<F4>c` /`<F4>f` / `<F4>e` : open html/htm/shtml file in Chrome/Firefox/IE. It doesn't work unless you add their full path to Path, the environment variable.
 For better experience, you could use Yahei Mono font.
 
