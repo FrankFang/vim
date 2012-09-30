@@ -3,13 +3,13 @@ My vim configuration ( only for Windows )
 
 Setup
 =
-1. download [vim73_46rt.zip](http://ftp.vim.org/pub/vim/pc/vim73_46rt.zip), and unzip it into a dictionary, say "frank".
+1. Download [vim73_46rt.zip](http://ftp.vim.org/pub/vim/pc/vim73_46rt.zip), and unzip it into a dictionary, say "frank".
     `mkdir frank`<br/>
     `unzip vim73_46rt.zip -d frank/`
-2. download [gvim73_46.zip](http://ftp.vim.org/pub/vim/pc/gvim73_46.zip), and unzip it into the same dictionary.
+2. Download [gvim73_46.zip](http://ftp.vim.org/pub/vim/pc/gvim73_46.zip), and unzip it into the same dictionary.
     `unzip gvim73_46.zip -d frank/`
-3. cd "frank/vim/".
-4. get my configuration files
+3. Go into "frank/vim/".
+4. Get my configuration files
     git clone https://github.com/FrankFang/vim.git.
     or download the zip file.  than your dictionary looks like this:
     + frank
@@ -18,5 +18,7 @@ Setup
             + vimfiles
             + _vimrc
             + README.md
-5. hava fun. 
+5. Edit gvim.reg and run it.
+5. Hava fun. 
 
+For better experience, you could use Yahei Mono font.
