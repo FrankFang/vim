@@ -92,7 +92,9 @@ source $VIMRUNTIME/menu.vim
 "w
 set winaltkeys=menu
 """"""""""""""""""""""""""""""""""""""""""快捷键
-nmap tt :tabn<CR>
+map <leader>tl :TaskList<CR>
+map <leader>nt :NERDTreeToggle<CR>
+map <leader>tt :tabnext<CR>
 "取消<C-W>在insert模式的默认动作
 inoremap <C-W> <ESC><C-W>
 inoremap <C-U> <ESC><C-U>
@@ -113,5 +115,3 @@ endfunction
 map <F4>c :call ViewInBrowser('c')<CR>
 map <F4>e :call ViewInBrowser('e')<CR>
 map <F4>f :call ViewInBrowser('f')<CR>
-map <A-d><A-d> :TaskList<CR>
-map <leader>nt :NERDTreeToggle<CR>
