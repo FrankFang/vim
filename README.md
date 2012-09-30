@@ -32,5 +32,8 @@ Hotkeys
 * `Tab` : complete the code automatically.
 * `,js` : format JaveScript.
 * `<F4>c` /`<F4>f` / `<F4>e` : open html/htm/shtml file in Chrome/Firefox/IE. It doesn't work unless you add their full path to Path, the environment variable.
+
+P.S.
+=
 For better experience, you could use Yahei Mono font.
 
