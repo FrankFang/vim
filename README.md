@@ -8,7 +8,7 @@ Setup
 3. cd "frank/vim/".
 4. git clone.
 than your dictionary looks like this:
-+frank
++ frank
     + vim
         + vim73
         + vimfiles
