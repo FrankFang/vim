@@ -3,23 +3,37 @@ My vim configuration ( only for Windows )
 
 Setup
 =
-1. Download [vim73_46rt.zip](http://ftp.vim.org/pub/vim/pc/vim73_46rt.zip), and unzip it into a dictionary, say "frank".<br/>
-    `mkdir frank`<br/>
-    `unzip vim73_46rt.zip -d frank/`
-2. Download [gvim73_46.zip](http://ftp.vim.org/pub/vim/pc/gvim73_46.zip), and unzip it into the same dictionary.<br/>
-    `unzip gvim73_46.zip -d frank/`
-3. Go into "frank/vim/".
-4. Get my configuration files
-    git clone https://github.com/FrankFang/vim.git.
-    or download the zip file.  than your dictionary looks like this:
+You can fellow the steps below or just download [the whole files](https://sourceforge.net/projects/mygvim/files/)
+1. Make a new folder.<br/>
+    `mkdir frank`
+2. Get my configuration files<br/>
+    `cd frank`<br/>
+    `git clone https://github.com/FrankFang/vim.git.`<br/>
+    or download the zip file.  than your folder looks like this:
+    + frank
+    	+ vim
+            + vimfiles
+            + _vimrc
+            + README.md
+            + gvim.reg
+            + .gitignore
+3. Download [gvim73_46.zip](http://ftp.vim.org/pub/vim/pc/gvim73_46.zip) and [vim73_46rt.zip](http://ftp.vim.org/pub/vim/pc/vim73_46rt.zip), and unzip it into the folder<br/>
+    `cp ...\gvim73_46.zip frank\gvim73_46.zip`<br/>
+    `cp ...\vim73_46rt.zip frank\vim73_46rt.zip`<br/>
+    `cd frank`<br/>
+    `unzip vim73_46rt.zip -d ./`<br/>
+    `unzip gvim73_46.zip -d ./`<br/>
+    than your folder looks like this:
     + frank
     	+ vim
             + vim73
             + vimfiles
             + _vimrc
             + README.md
-5. Edit gvim.reg and run it.
-6. Hava fun. 
+            + gvim.reg
+            + .gitignore
+4. Run frank\vim\vim73\gvim.exe.
+5. Hava fun. 
 
 Hotkeys
 =
@@ -35,5 +49,7 @@ Hotkeys
 
 P.S.
 =
-For better experience, you could use Yahei Mono font.
+For better experience, you could 
+1. use Yahei Mono font.
+2. Edit gvim.reg and run it.
 
