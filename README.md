@@ -1,4 +1,4 @@
-My vim configuration ( only for Windows )
+My GVim configuration for front-end developing 
 =
 
 ## Setup ##
