@@ -40,7 +40,7 @@ You can follow the steps below or just download [the whole files](https://source
 
 ## Hotkeys ##
 
-* `<Ctrl-S>` / `<Ctrl-A>` / `<Ctrl-C>` / `<Ctrl-V>` / `<CTRL-X>` : save / select all / copy / paste / cut, as you expected.
+* `<CTRL-s>` / `<CTRL-a>` / `<CTRL-c>` / `<CTRL-v>` / `<CTRL-x>` : save / select all / copy / paste / cut, as you expected.
 * `,nt` : toggle NerdTree.
 * `,tt` : next tab.
 * `,tl` : open TaskList.
@@ -48,6 +48,7 @@ You can follow the steps below or just download [the whole files](https://source
 * `<space>` : fold/unfold the code.
 * `Tab` : complete the code automatically.
 * `,js` : format JaveScript.
+* `<CTRL-y>,` : zen coding, you can change the shortcut in ~\vimfiles\plugin\zencoding.vim.
 * `<F4>c` /`<F4>f` / `<F4>e` : open html/htm/shtml file in Chrome/Firefox/IE. It doesn't work unless you add their full path to Path, the environment variable.
 
 ## P.S. ##
