@@ -3,7 +3,7 @@ My GVim configuration for front-end developing
 
 ## Setup ##
 
-You can follow the steps below or just download [the whole files](https://sourceforge.net/projects/mygvim/files/).
+You can follow the steps below or just download [the whole program](https://sourceforge.net/projects/mygvim/files/) (This project doesn't contain the vim73 folder).
 
 
 1. Make a new folder.<br/>
